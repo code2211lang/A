@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "tbot",
+  "version": "${version}",
+  "name": "Tbot",
+  "description": "Ataque automático al apuntar a una entidad.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.tbot.TbotClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
